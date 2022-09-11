@@ -1,1 +1,5 @@
-www.sunset1over
+$ dig WWW.SUNSET1OVER.COM +nostats +nocomments +nocmd
+    > ;WWW.SUNSET1OVER.COM.                     IN      A
+    > WWW.SUNSET1OVER.COM.              3592    IN      CNAME   sunset1over.github.io.
+    > sunset1over.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
